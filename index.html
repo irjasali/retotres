@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <script src="./assets/js/arreglos.js"></script>
+   
+    
+    <title>Fibonacci Number</title>
+</head>
+<body>
+    
+	<div class="container">
+		<div class="jumbotron text-center bg-primary text-white mb-0">
+            <h1><strong class="">Serie Fibonacci</strong></h1>
+            <p><span>by @irjasali - Developer Full-Stack</span></p>
+        </div>	
+        <div class="alert alert-success font-weight-bold pt-0 m-0">
+            <strong>! Advertencia!</strong> El número debera ser diferente de Cero.
+           
+          </div>
+        <div class="panel panel-default display-4">
+        <div class="panel-body">Introduzca el número:
+            <input type="number" class="input-lg" placeholder="XXX" id="num" on>
+            <button type="button" class="btn btn-primary btn-lg" onclick="fibonacci()">CALCULAR</button>
+            <button type="button" class="btn btn-primary btn-lg" onclick="limpiar();">NUEVO</button>
+        </div>
+         <div class="panel-body" >
+             <h3 class="resul"  id="resultado" >La serie Fibonacci es:</h3>
+
+         </div> 
+
+         <div class="jumbotron text-center bg-secundary text-body mb-0">
+            <h2><strong class="">Análisis de un algoritmo de Fibonacci</strong></h2>
+            <div class="text">
+                <p>La sucesión de Fibonacci
+                    Fn
+                    0 si n = 0 ;
+                    1 si n = 1 ;
+                    Fn−1 + Fn−2 si n ≥ 2 .
+                    Fue presentada en oriente por Leonardo de Pisa cerca del añoo 1202. Sin embargo, fue descubierta antes por matem´aticos hind`ues. Existen muchas propiedades
+                    y aplicaciones en teoría de números juegos como también en computación. A
+                    modo de ejemplo, estos números con ciertas restricciones son el peor caso del
+                    algoritmo de Euclides -cuyo análisis es muy complicado-.
+                </p><p>    
+                    Comúnmente en computación cuando se presentan mecanismos para calcular
+                    un número de Fibonacci se mencionan tres algoritmos. En primer lugar uno
+                    recursivo que sale de la definición, luego uno iterativo de orden n y por último
+                    otro recursivo que utiliza técnicas de divide and conquer que es de orden log n.
+                </p>
+                <div class="algoritmo">
+                 <p><img class="" src="./assets/img/fib.png" alt=""> </p>   
+            </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+
+</body>
