@@ -22,7 +22,7 @@ class fibonacciNumber {
 }
 
 const fibonacci =()=>{
-var valor = document.getElementById('num').value;
+let  valor = document.getElementById('num').value;
 const numberOne = new fibonacciNumber();
 document.getElementById("resultado").innerHTML +=" "+numberOne.calcularNumero(valor);
 }
